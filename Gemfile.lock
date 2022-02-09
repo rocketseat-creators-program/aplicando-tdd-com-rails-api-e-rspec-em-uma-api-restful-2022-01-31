@@ -66,6 +66,9 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    annotate (2.6.5)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     bootsnap (1.10.2)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -162,6 +165,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  annotate
   bootsnap
   pg (~> 1.1)
   pry-byebug

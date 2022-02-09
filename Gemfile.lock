@@ -167,7 +167,6 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.1)
-  tzinfo-data
 
 RUBY VERSION
    ruby 3.0.0p0

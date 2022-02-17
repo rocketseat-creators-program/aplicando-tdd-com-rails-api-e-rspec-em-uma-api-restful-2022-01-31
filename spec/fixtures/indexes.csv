@@ -1,0 +1,3 @@
+date,iso_a3,currency_code,name,local_price,dollar_ex,dollar_price,USD_raw,EUR_raw,GBP_raw,JPY_raw,CNY_raw,GDP_dollar,adj_price,USD_adjusted,EUR_adjusted,GBP_adjusted,JPY_adjusted,CNY_adjusted
+2000-04-01,ARG,ARS,Argentina,2.5,1,2.5,-0.00398,0.05007,-0.16722,-0.09864,1.09091,,,,,,,
+2000-04-01,AUS,AUD,Australia,2.59,1.68,1.54166666666667,-0.38579,-0.35246,-0.48645,-0.44416,0.28939,,,,,,,

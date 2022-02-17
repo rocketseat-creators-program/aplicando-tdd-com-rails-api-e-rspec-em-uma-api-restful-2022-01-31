@@ -8,6 +8,7 @@ RSpec.describe ImportIndexesService do
   describe '#import' do
     it 'imports the indexes' do
       expect { service.run }.to change { BigMacIndex.count }.by(2)
+      expect(BigMacIndex.last.name).to eq('Australia')
     end
   end
 end

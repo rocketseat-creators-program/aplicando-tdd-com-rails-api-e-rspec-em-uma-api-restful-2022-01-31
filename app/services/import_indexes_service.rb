@@ -13,8 +13,8 @@ class ImportIndexesService
       attributes = row.to_hash
       index = BigMacIndex.find_or_create_by(attributes)
       
-      if index.previously_new_record?
-        @imported += 1
+      if index.save
+        @imported += 1 if index.previously_new_record?
       else
         puts "#{row['date']} - #{row['iso_a3']} - #{index.errors.full_messages.join(',')}"
       end

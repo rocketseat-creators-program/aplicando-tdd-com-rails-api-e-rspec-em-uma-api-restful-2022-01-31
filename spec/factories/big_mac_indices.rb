@@ -28,9 +28,21 @@
 
 FactoryBot.define do
   factory :big_mac_index do
-    date { "2022-02-17" }
-    iso_a3 { "MyString" }
-    currency_code { "MyString" }
-    name { "MyString" }
+    date { '2022-01-01' }
+    iso_a3 { 'BRA' }
+    currency_code { 'BRL' }
+    name { 'Brazil' }
+    local_price { '22.9' }
+    dollar_ex { '5.31' }
+    dollar_price { '4.31261770244821' }
+
+    trait :argentina do
+      iso_a3 { 'ARG' }
+      currency_code { 'ARS' }
+      name { 'Argentina' }
+      local_price { '450.0' }
+      dollar_ex { '105.0165' }
+      dollar_price { '4.28504092214081' }
+    end
   end
 end

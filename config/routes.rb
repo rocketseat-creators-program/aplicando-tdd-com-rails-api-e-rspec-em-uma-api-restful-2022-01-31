@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :blas
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :big_mac_indices, only: [:index] do
+      resources :big_mac_indices do
         collection do
           get :latest
         end
